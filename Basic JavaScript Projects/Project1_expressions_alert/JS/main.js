@@ -38,10 +38,11 @@
 
 // document.write(3+3);
 
+// 
 
-function My_First_Function(){
-    var letters = "This text is blue";
-    var result = letters.fontcolor("blue");
-    document.getElementById("blueText").innerHTML = result;
+function My_First_Function(){   // defining function name
+    var letters = "This text is blue"; // defining a value and giving it a string value
+    var result = letters.fontcolor("blue"); // using the fontcolor method to string variable
+    document.getElementById("blueText").innerHTML = result; // putting the value of result into HTML element with "blueText" id
 };
 
