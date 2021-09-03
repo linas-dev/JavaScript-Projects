@@ -1,3 +1,3 @@
 const myName = "Linas";
 
-document.write(myName);
+window.alert(myName);
