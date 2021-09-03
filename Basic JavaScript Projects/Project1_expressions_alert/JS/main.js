@@ -1,4 +1,4 @@
-// windows.alert("Hi, Linas")
+// windows.alert("Hi, Linas");
 
 // const myDad = "Tom";
 // const myMom = "Laura";
@@ -42,9 +42,12 @@
 
 // 
 
-function My_First_Function(){   // defining function name
-    var letters = "This text is blue"; // defining a value and giving it a string value
-    var result = letters.fontcolor("blue"); // using the fontcolor method to string variable
-    document.getElementById("blueText").innerHTML = result; // putting the value of result into HTML element with "blueText" id
-};
+// function My_First_Function(){   // defining function name
+//     var letters = "This text is blue"; // defining a value and giving it a string value
+//     var result = letters.fontcolor("blue"); // using the fontcolor method to string variable
+//     document.getElementById("blueText").innerHTML = result; // putting the value of result into HTML element with "blueText" id
+// };
 
+function myCopyFunction() {
+    alert("You copied me 🥳");
+  }
