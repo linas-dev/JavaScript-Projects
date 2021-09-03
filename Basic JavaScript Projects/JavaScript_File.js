@@ -1,1 +1,1 @@
-alert("linas")
+windows.alert("linas");
