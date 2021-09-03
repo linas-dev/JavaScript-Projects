@@ -10,6 +10,11 @@
 // var color = color.fontcolor("blue");
 
 // document.write(`My favorite color is: ${color}`);
+var dad = "👴";
+var mom = "👵";
+var brother = "👨";
+var sister = "👩";
+
 
 var myDadColor = "Green";
 var myDadColor = myDadColor.fontcolor("green");
@@ -24,10 +29,10 @@ var myBrotherColor = "Brown";
 var myBrotherColor = myBrotherColor.fontcolor("brown")
 
 document.write(`
-    My dads fav color is: ${myDadColor}</br> 
-    My dads fav color is:  ${myMomColor} </br> 
-    My dads fav color is:  ${myBrotherColor} </br>
-    My dads fav color is:  ${mySisterColor}
-    `);
+    <h2> My ${dad} dads fav color is: ${myDadColor} </br> </h2>
+    <h2> My ${mom} moms fav color is:  ${myMomColor} </br> </h2>
+    <h2> My ${brother} brothers fav color is:  ${myBrotherColor} </br> </h2>
+    <h2> My ${sister} sisters fav color is:  ${mySisterColor} </h2>
+`);
 
 
