@@ -1,4 +1,4 @@
-// windows.alert("Hi, Linas");
+// window.alert("Hi, Linas");
 
 // const myDad = "Tom";
 // const myMom = "Laura";
