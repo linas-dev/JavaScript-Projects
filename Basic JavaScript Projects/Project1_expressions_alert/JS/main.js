@@ -1,3 +1,5 @@
+// windows.alert("Hi, Linas")
+
 // const myDad = "Tom";
 // const myMom = "Laura";
 // const mySister = "Simona";
