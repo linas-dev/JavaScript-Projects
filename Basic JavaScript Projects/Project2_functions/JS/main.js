@@ -17,13 +17,13 @@
 // };
 
 
-function clickFunction(){
-    var changeInnerText = "Text was changed ";
-    var surpriseText = "This new blue color text"
-    var surpriseText = surpriseText.fontcolor("blue");
-    var surpriseText = surpriseText.fontsize("5");
-    changeInnerText += ` to: ${surpriseText} `;
+function clickFunction(){ // defining function name
 
-    document.getElementById("click").innerHTML = changeInnerText;
+    var changeInnerText = "Text was changed "; // creating variable for inner text
+    var surpriseText = "This new blue color text" // defining new variable for new text
+    var surpriseText = surpriseText.fontcolor("blue"); // assigning color to new variable text
+    changeInnerText += ` to: ${surpriseText} `; // assigning inner text to new created variable
+
+    document.getElementById("click").innerHTML = changeInnerText; // getting id on click function and changing assigned variable to inner text
+
 };
-
