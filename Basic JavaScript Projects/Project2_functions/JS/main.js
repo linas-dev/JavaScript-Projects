@@ -30,13 +30,17 @@
 
 function clickFunction() {
 
-    var addition = 4 + 4;
-    document.getElementById("click").innerHTML = ` 4 + 4 =  ${addition} `
+    var x = 4;
+    var y = 4;
+    x += y;
+    document.getElementById("x").innerHTML = ` 4 + 4 =  ${x} `
 }
 
 function clickFunction2() {
 
-    var substraction = 4 - 2;
-    document.getElementById("click2").innerHTML = ` 4 - 2 =  ${substraction} `
+    var x = 4;
+    var y = 2;
+    x -= y;
+    document.getElementById("x2").innerHTML = ` 4 - 2 =  ${x} `
 }
 

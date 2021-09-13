@@ -37,7 +37,7 @@
 
 
 
-var mynum;
+// var mynum;
 
 // mynum = Math.sqrt(64);
 // document.write(` ${mynum} `)
@@ -45,10 +45,22 @@ var mynum;
 // mynum = Math.abs(-10);
 // document.write(` ${mynum} `)
 
-var a = window.prompt("Enter side A");
-var b = window.prompt("Enter side B");
-var c;
+// var a = window.prompt("Enter side A");
+// var b = window.prompt("Enter side B");
+// var c;
 
-c = Math.sqrt(Math.pow(a,2) + Math.pow(b,2));
+// c = Math.sqrt(Math.pow(a,2) + Math.pow(b,2));
 
-document.write(`Side c = ${c}`);
+// document.write(`Side c = ${c}`);
+
+
+
+
+// const getRandomNumber = (min, max) => {
+//     return Math.floor(Math.random() * (max - min + 1)) + min;
+//   };
+
+// console.log(getRandomNumber(7,2).toFixed(1) * 100);
+
+
+
