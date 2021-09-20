@@ -7,9 +7,9 @@
     <script src="/Project3_math_operators/JS/main.js"></script>
     <title>Document</title>
 </head>
-<body>
+<b>
     
-    <div>
+    <!-- <div>
         <div>
           <input id="person" placeholder="Enter number" />
         </div>
@@ -18,6 +18,41 @@
         </div>
         <button id="add">Add numbers</button>
         <div id="results"></div>
-      </div>
+      </div> -->
+
+      <div class="group" >
+
+      <p id="add" onclick="addnumber()" class="class">Add ( click me ): 
+        <p id="display1"> 9 + 4 =  </p>
+      </p>
+    </br>
+      <p id="sub" onmousewheel="subnumber()" class="class">Subtract ( Move mousewheel ): 
+        <p id ="display2"> 67 - 39 =  </p>
+      </p >
+    </br>
+      <p id="multi" ondblclick="multinumber()" class="class">Multiply ( Doubleclick): 
+        <p id="display3"> 7 * 74 =  </p>
+      </p>
+    </br>
+      <p id="mod" ondrag="modnumebr()" class="class">Modulus ( Drag Me ): 
+        <p id="display4"> 40 % 14 =  </p>
+      </p>
+    </br>
+      <p id="++" ondragleave="plusplusnumber()" class="class">Plus + 1 ( Drag and leave me ): 
+        <p id="display5"> 67 ++ =  </p>
+      </p>
+    </br>
+      <p id="--" oncopy="minusminusnumber()" class="class">Minus - 1 ( Copy me ): 
+        <p id="display6"> 285 -- =  </p>
+      </p>
+
+    </div>
+    </br>
+      <p onclick="findBiggestRandomNumber()">Random Biggest Number <span style="font-size: 20px; color: blue" >Math</span> function ( Click Me )
+        <p id="num1">Number 1 : </p>
+        <p id="num2">Number 2 : </p>
+        <p id="num3">Number 3 : </p>
+        <p id="max">Max number is : </p>
+      </p>
 
 </html>

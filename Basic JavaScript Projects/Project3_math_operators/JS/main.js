@@ -64,3 +64,49 @@
 
 
 
+function addnumber() {
+    var add = 9 + 4;
+    document.getElementById("display1").innerHTML = ` 9 + 4 = ${add} `;
+}
+
+function subnumber() {
+    var sub = 67 - 39;
+    document.getElementById("display2").innerHTML = ` 67 - 39 = ${sub} `;
+}
+
+function multinumber() {
+    var multi = 7 * 74;
+    document.getElementById("display3").innerHTML = ` 7 * 74 = ${multi} `;
+}
+
+function modnumebr() {
+    var modulus = 40 % 14;
+    document.getElementById("display4").innerHTML = ` 40 % 14 = ${modulus} `;
+}
+
+function plusplusnumber() {
+    var plusplus = 67;
+    plusplus ++;
+    document.getElementById("display5").innerHTML = ` 67 ++ = ${plusplus} `;
+}
+
+function minusminusnumber() {
+    var minuminus = 285;
+    minuminus --;
+    document.getElementById("display6").innerHTML = ` 285 -- = ${minuminus} `;
+}
+
+
+
+function findBiggestRandomNumber() {
+    var num1 = Math.random().toFixed(1) * 99;
+    var num2 = Math.random().toFixed(1) * 99;
+    var num3 = Math.random().toFixed(1) * 99;
+
+    var max = Math.max(num1,num2,num3);
+
+    document.getElementById("num1").innerHTML = ` Number 1 : ${num1} `;
+    document.getElementById("num2").innerHTML = ` Number 2 : ${num2} `;
+    document.getElementById("num3").innerHTML = ` Number 3 : ${num3} `;
+    document.getElementById("max").innerHTML = ` Max number is :  ${max} `;
+};
