@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/Project7_scope_time_function/JS/main.js"></script>
+</head>
+<body>
+
+    <p id="global" onclick="global()" >Global variable: Click me </p>
+    <p id="local" onclick="local()" >Local variable: Click me </p>
+    
+    <h2>Get Current Date</h2>
+    <p id="date" onclick="dateGet()" >Click here to get date: </p>
+    <br>
+    <br>
+
+
+    <h2>Your Age:</h2>
+    <label for="">Please Write your Age: </label>
+    <br>
+    <input type="text" value="18" id="age" >
+    <br>
+    <p id="oldenough" ></p>
+    <button onclick="age()" >Submit</button>
+
+    <h2>Time and Date</h2>
+    <h4 id="dateTime" ></h4>
+    <button onclick="getDateAndTime()" >Click here to get date and time: </button>
+    <br>
+
+</body>
+</html>
