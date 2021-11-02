@@ -12,7 +12,7 @@ function call_loop(){
 
 var stringLenght = " I am a linas string ";
 
-document.write(stringLenght.length);§
+document.write(stringLenght.length);
 document.write(stringLenght.toLowerCase());
 document.write(stringLenght.toUpperCase());
 document.write(stringLenght.indexOf("linas"));
@@ -33,7 +33,7 @@ var string4 = "bcd";
 console.log(string1 === string2)
 console.log(string1.toLocaleLowerCase() === string2.toLocaleLowerCase());
 
-console.log(string3 <br string4);
+console.log(string3 < string4);
 
 
 
