@@ -30,7 +30,7 @@ var string2 = "ABC";
 var string3 = "abc";
 var string4 = "bcd";
 
-console.log(string1 === string2)
+console.log(string1 === string2) 
 console.log(string1.toLocaleLowerCase() === string2.toLocaleLowerCase());
 
 console.log(string3 < string4);
