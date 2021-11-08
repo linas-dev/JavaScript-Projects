@@ -27,7 +27,7 @@
 //     document.getElementById("click").innerHTML = changeInnerText; // getting id on click function and changing assigned variable to inner text
 
 // };
-
+  
 function clickFunction() {
 
     var x = 4;
