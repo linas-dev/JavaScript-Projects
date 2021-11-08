@@ -92,13 +92,6 @@ document.write(`</br> ${x}`)
 document.write(`</br> ${x}`)
 
 
-const calculateArea = function(radius) {
-    return 3.14 * radius**2 + 2;
-}
-const area = calculateArea(5);
-console.log(area);
-
-
 let car = {
     make: "Audi",
     model: "A8 Sport",
